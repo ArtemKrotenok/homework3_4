@@ -1,0 +1,9 @@
+CREATE DATABASE `jd2_homework3-4`;
+USE `jd2_homework3-4`;
+CREATE TABLE car
+(
+id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(50)NULL,
+car_model VARCHAR(50)NOT NULL,
+engine_capacity INT(2)NOT NULL
+);
